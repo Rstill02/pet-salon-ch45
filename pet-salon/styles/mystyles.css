@@ -1,0 +1,78 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: "./Images/pastel.jpeg";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+/*utilities*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+}
+/*header*/
+
+.site-init{
+    background-image: url(Images/Unknown.jpeg);
+    height: 20vh;
+    background-size: contain;
+}
+/*main*/
+.container{
+    display: flexbox;
+    justify-content: center;
+    align-items:center;
+}
+
+/*welcome*/
+.welcome-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.welcome-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 20rem;
+}
+.welcome-img img{
+    display: block;
+    width: 20rem;
+}
+/*services*/
+
+/*footer*/
+.site-footer{
+    display: flex;
+    justify-content: baseline;
+    background-image: url(Images/jewels.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+    padding: 5rem;
+    margin-top: auto;
+}
+
+.site-footer1{
+    display: flex;
+    justify-content: baseline;
+    background-image: url(Images/glitter.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3rem;
+    padding: 5rem;
+    margin-top: auto
+}
+/*
